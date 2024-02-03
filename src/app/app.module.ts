@@ -2,7 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import { RadioRoutingModule } from './radio/radio-routing.module';
 import { AppComponent } from './app.component';
+import { RadioModule } from './radio/radio.module';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +13,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RadioModule,
+    RadioRoutingModule,
+    AppRoutingModule,
   ],
   providers: [
     provideClientHydration()
