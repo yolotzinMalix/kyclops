@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { RadioModule } from './radio/radio.module';
 
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
