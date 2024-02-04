@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { RadioRoutingModule } from './radio-routing.module';
 import { HomeComponent } from './view/home/home.component';
+import { ReproductorComponent } from './components/reproductor/reproductor.component';
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    ReproductorComponent
   ],
   imports: [
     CommonModule,
